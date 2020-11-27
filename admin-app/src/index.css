@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*-------------------------------- END ----*/
+    #body-row {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    #sidebar-container {
+        min-height: 100vh;
+        background-color: white;
+        padding: 5px;
+        /* flex: unset; */
+    }
+    
+    .sidebar-expanded {
+        width: 230px;
+    }
+    
+    .sidebar-collapsed {
+        /*width: 60px;*/
+        width: 100px;
+    }
+
+    /* ----------| Menu item*/    
+    #sidebar-container .list-group a {
+        height: 50px;
+        color: white;
+    }
+
+    /* ----------| Submenu item*/    
+    #sidebar-container .list-group li.list-group-item {
+        background-color: white;
+    }
+    
+    #sidebar-container .list-group .sidebar-submenu a {
+        height: 45px;
+        padding-left: 30px;
+    }
+    
+    .sidebar-submenu {
+        font-size: 0.9rem;
+    }
+
+    /* ----------| Separators */    
+    .sidebar-separator-title {
+        background-color: white;
+        height: 35px;
+    }
+    
+    .sidebar-separator {
+        background-color: white;
+        height: 25px;
+    }
+    
+    .logo-separator {
+        background-color: white;
+        height: 60px;
+    }
+    
+    a.bg-dark {
+        background-color: white !important;
+    }
